@@ -40,9 +40,9 @@ var articlesApp = (function () {
       //table
       table = `<div class="card">
         <div class="card-header clearfix">
-          <h2 class="h3 float-left">Articles</h2>
+          <h2 class="h3 float-left">Posts</h2>
           <div class="float-right">
-            <a href="#create" class="btn btn-primary">New Article</a>
+            <a href="#create" class="btn btn-primary">New Post</a>
           </div>
         </div>
         <div class="table-responsive">
@@ -70,7 +70,7 @@ var articlesApp = (function () {
     var form = `
         <div class="card">
           <div class="card-header clearfix">
-            <h2 class="h3 float-left">New Article</h2>
+            <h2 class="h3 float-left">New Post</h2>
             <div class="float-right">
               <a href="#" class="btn btn-primary">Cancel</a>
             </div>
@@ -217,7 +217,7 @@ var articlesApp = (function () {
       var form = `
         <div class="card">
           <div class="card-header clearfix">
-            <h2 class="h3 float-left">Edit Article</h2>
+            <h2 class="h3 float-left">Edit Post</h2>
             <div class="float-right">
               <a href="#" class="btn btn-primary">Cancel</a>
             </div>
